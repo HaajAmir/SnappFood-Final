@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mainStyles.css">
+    <title>SnappFood!</title>
+</head>
+
+<body>
+
+    <!-- logo -->
+    <h1>Snapp!<br>Food</h1>
+
+    <!-- menu -->
+    <h3>Menu</h3>
+    <div class="products" id="products"></div>
+
+    <!-- buy list -->
+    <h3>To buy</h3>
+    <div class="cart" id="cart"></div>
+
+
+
+    <div class="inputs-div">
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+            <label for="ngredients">ingredients</label>
+            <input type="text" id="ingredients">
+            <label for="price">price</label>
+            <input type="number" id="price">
+            <input type="button" id="submit" value="Submit" />
+        </form>
+    </div>
+
+
+    <p id="show-time" class="show-time"></p>
+
+</body>
+<script type="module" src="mainScripts.js"></script>
+
+</html>
