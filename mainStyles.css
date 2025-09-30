@@ -1,0 +1,165 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 2% 5%;
+    text-align: left;
+}
+
+h1 {
+    color: #ff00a6;
+    margin-bottom: 2%;
+    text-align: left;
+}
+
+h3 {
+    margin: 20px 0 10px 0;
+    color: #454545;
+    text-align: left;
+}
+
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: flex-start;
+    margin-bottom: 28px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 13px;
+    width: 220px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card h3 {
+    margin: 0;
+    color: #ff00a6;
+    font-size: 19px;
+    text-align: left;
+}
+
+.card .ingredients {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    text-align: left;
+}
+
+.card .price {
+    font-weight: bold;
+    text-align: left;
+}
+
+.card .buy-buttn {
+    background-color: #ff00a6;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+
+
+.cart {
+    border: 1px solid #dcdcdc;
+    border-radius: 12px;
+    padding: 15px;
+    width: 100%;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.cart-items {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+.cart-items li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.remove-butn {
+    background-color: #e60091;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 4px 8px;
+    font-size: 12px;
+}
+
+
+.cart-total {
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.checkout-btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #ff00a6;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+.show-time {
+    padding: 10px 10px;
+    width: 27%;
+    border-radius: 13px;
+    margin-top: 2rem;
+}
+
+.inputs-div {
+    border: 1px solid #ccc;
+    border-radius: 13px;
+    width: 220px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+
+.inputs-div form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.inputs-div input[type="text"],
+.inputs-div input[type="number"] {
+    padding: 8px 9px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+
+
+#submit {
+    background-color: #ff00a6;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+}
