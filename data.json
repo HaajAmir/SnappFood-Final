@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Pizza",
+    "ingredients": ["Bread", "Cheese"],
+    "price": 500000
+  },
+  {
+    "name": "Burger",
+    "ingredients": ["Beef", "Cheese"],
+    "price": 300000
+  },
+  {
+    "name": "Salad",
+    "ingredients": ["Vegetables", "Corn"],
+    "price": 50000
+  },
+  {
+    "name": "Pasta",
+    "ingredients": ["Pene", "Mushroom"],
+    "price": 200000
+  }
+]
